@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="options.css">
+  </head>
+  <body>
+    <div class="container">
+      <label>
+        Trac ticket URL
+        <input type="text" id="ticketUrl" placeholder="http://trac.example.com:8081/trac/ticket/{ID}">
+      </label>
+      <p class="help">
+        Format: http://trac.example.com:8081/trac/ticket/{ID}
+      </p>
+      <button id="save">Save</button>
+      <p class="help">
+        The extension will replace {ID} with whatever ID you select on the page.
+      </p>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+* {
+  font-family: Helvetica;
+}
+
+body {
+  font-size: 20px;
+}
+
+.container {
+  width: 70%;
+  margin: 40px auto;
+}
+label {
+  font-weight: bold;
+}
+input {
+  display:block;
+  width:100%;
+  
+  margin-top:10px;
+}
+
+input, button {
+  font-size:150%;
+}
+
+.help {
+  font-size:0.8em;
+  color: #999;
+}
