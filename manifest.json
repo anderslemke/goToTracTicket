@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "ISSUU - Go To Trac Ticket",
+  "name": "Go To Trac Ticket",
   "description": "Highlight a ticket number and click. And BOOM! You're on that ticket.",
   "version": "0.1",
   "options_page": "options.html",

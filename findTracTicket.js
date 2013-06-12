@@ -11,7 +11,7 @@ function getSelectionText() {
 chrome.storage.sync.get('trac_ticket_url', function(value){
   var url = value['trac_ticket_url'];
   if (!url || url === '') {
-    window.alert('Please set your ticket trac URL on the extension options.');
+    window.alert('Please set your Trac ticket URL in the options.');
   }else{
     var tracTicketURL = url;
 
